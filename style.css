@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Kulim+Park&display=swap');
+
+*,html,body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-size: cover; */
+    font-family: 'Kulim Park', sans-serif;
+    /* color: black; */
+}
+
+/* ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+} */
+ul li{
+    float: left;
+    width: 200px;
+    height: 40px;
+    /* opacity: .8; */
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    /* margin-right:12px; */
+    cursor: pointer;
+    display: inline-block;
+    
+}
+ul li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    
+}
+ul li a:hover{
+    /* background-color:rgb(235, 5, 24); */
+    text-decoration: none;
+    transition: all 0.5s;
+    display: block;
+    color: red;
+}
+ul li ul li{
+    display: none;
+}
+
+ul li:hover ul li{
+    display: block;
+}
+.logo img{
+    width: 10em;
+    cursor: pointer;
+    /* margin-top: 10px; */
+    margin-left: 670px;
+}
+
+header .navbar{
+    padding-left:167px;
+    /* padding-bottom: 19px; */
+    /* line-height: 112px; */
+}
+/* .searchbox{
+    padding-top: 12px;
+    margin-left: 530px;
+    padding-bottom: 10px;
+}
+.searchbox input{
+    padding: 8px;
+    width: 220px;
+}
+.searchbox button{
+    padding: 8px;
+    background-color: white;
+    border: black solid;
+} */
+/* .logo{
+    
+    margin-left: 610px;
+} */
+.body-photo{
+    background:url('images/bake.jpg');
+    width: 100%;
+    height: 700px;
+}
+.tala{
+    text-align: center;
+}
+#orderbtn{
+    display: inline-block;
+    /* line-height: 120%; */
+    color: #FFF;
+    background-color: rgb(238, 83, 83);
+    padding: 12px 16px;
+    top: 60%;
+    left: 10%;
+    border-radius: 4px;
+    /* text-decoration: none; */
+    /* cursor: pointer; */
+    transition: background-color ease 400ms;
+    font-size: xx-large;
+    font-weight: 1000;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    
+    
+  }
+#orderbtn:hover{
+	background-color: rgb(168, 38, 38);
+    color: #FFF;
+    text-decoration: none;
+}
