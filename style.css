@@ -16,8 +16,10 @@ body{
     padding: 0px;
     list-style: none;
 } */
+
+/* ------ header css ------ */
 ul li{
-    float: left;
+    /* float: left; */
     width: 200px;
     height: 40px;
     /* opacity: .8; */
@@ -80,6 +82,9 @@ header .navbar{
     
     margin-left: 610px;
 } */
+
+
+/* ------- index body css -------- */
 .body-photo{
     background:url('images/bake.jpg');
     width: 100%;
@@ -94,8 +99,8 @@ header .navbar{
     color: #FFF;
     background-color: rgb(238, 83, 83);
     padding: 12px 16px;
-    top: 60%;
-    left: 10%;
+    top: 65%;
+    left: 84%;
     border-radius: 4px;
     /* text-decoration: none; */
     /* cursor: pointer; */
@@ -103,7 +108,7 @@ header .navbar{
     font-size: xx-large;
     font-weight: 1000;
     transform: translate(-50%, -50%);
-    position: absolute;
+    position: relative;
     
     
   }
@@ -112,3 +117,185 @@ header .navbar{
     color: #FFF;
     text-decoration: none;
 }
+/* ------- menu css -------*/
+.body-photom{
+    background:url('images/MenuTop1.JPG');
+    width: 100%;
+    height: 530px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.body-photom h1{
+    font-size: 70px;
+    padding: 10%;
+    color: white;
+}
+
+
+/* -----about css----- */
+
+
+.About p img {
+	width: 40%;
+	float: right;
+}
+.About p {
+	padding-left: 3%;
+}
+.body-photoa{
+    background:url('Images/Web.jpg');
+    width: 100%;
+    height: 1030px;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+
+
+
+    
+}
+/* -----contact css----- */
+
+.body-photoc{
+    background:url('images/Cookies.jpg');
+    width: 100%;
+    height: 445px;
+    position: absolute;
+    left: 0;
+    
+}
+.mapouter{
+	position:relative;
+	margin-left:55%;
+	margin-top:40%;
+	height:415px;
+	width:738px;
+}
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	height:400px;
+	width:600px;
+}
+iframe{
+	width:738px;
+	height:415px;
+}
+#contents{
+	padding: 20%;
+	padding-top: 150px;
+	padding-bottom: 0px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+/* -------- signup css -----------*/
+
+    /*add full-width input fields*/ 
+    input[type=text], 
+    input[type=password] { 
+        width: 100%; 
+        padding: 12px 20px; 
+        margin: 8px 0; 
+        display: inline-block; 
+        border: 2px solid #ccc; 
+        box-sizing: border-box; 
+    } 
+    /* set a style for all buttons*/ 
+    button { 
+        background-color: green; 
+        color: white; 
+        padding: 14px 20px; 
+        margin: 8px 0; 
+        cursor: pointer; 
+        width: 100%; 
+    } 
+    /*set styles for the cancel button*/ 
+    .cancelbtn { 
+        padding: 14px 20px; 
+        background-color: #FF2E00; 
+    } 
+    /*float cancel and signup buttons and add an equal width*/ 
+    .cancelbtn, 
+    .signupbtn { 
+        float: left; 
+        width: 50% 
+    } 
+    /*add padding to container elements*/ 
+    .container { 
+        padding: 16px; 
+    } 
+    /*define the modal’s background*/ 
+      
+    .modal { 
+        display: none; 
+        position: fixed; 
+        z-index: 1; 
+        left: 0; 
+        top: 0; 
+        width: 100%; 
+        height: 100%; 
+        overflow: auto; 
+        background-color: rgb(0, 0, 0); 
+        background-color: rgba(0, 0, 0, 0.4); 
+        padding-top: 60px; 
+    } 
+    /*define the modal-content background*/ 
+      
+    .modal-content { 
+        background-color: #dae0e5; 
+        margin: 5% auto 15% auto; 
+        border: 1px solid #888; 
+        width: 50%; 
+    } 
+    /*define the close button*/ 
+      
+    .close { 
+        position: absolute; 
+        right: 300px; 
+        top: 60px; 
+        color: #000; 
+        font-size: 40px; 
+        font-weight: bold; 
+    } 
+    /*define the close hover and focus effects*/ 
+      
+    .close:hover, 
+    .close:focus { 
+        color: red; 
+        cursor: pointer; 
+    } 
+      
+    .clearfix::after { 
+        content: ""; 
+        clear: both; 
+        display: table; 
+    } 
+      
+    @media screen and (max-width: 300px) { 
+        .cancelbtn, 
+        .signupbtn { 
+            width: 100%; 
+        } 
+    }
+
+
+/* --------- footer css --------- */
+#main-footer{
+    /* background:#545b62; */
+    background:#007bff40 ;
+    
+	text-align: center;
+	margin-top:200px;	
+}
+#main-footer .social img{
+	padding: 20px;
+	padding-bottom:0px;
+	height:80px;
+	margin-bottom:5px;
+}
+/* #main-footer .social a i{
+	padding: 20px;
+	padding-bottom:0px;
+	height:180px;
+	margin-bottom:5px;
+} */
